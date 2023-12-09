@@ -23,14 +23,13 @@
     "eslint-plugin-react-refresh": "^0.4.4",
     "vite": "^5.0.0"
   },
-  "main": "main.jsx",
+  "main": "index.jsx",
   "vercel": {
     "builds": [
-      { "src": "main.jsx", "use": "@vercel/static-build" }
+      { "src": "index.jsx", "use": "@vercel/static-build" }
     ],
     "routes": [
       { "src": "/(.*)", "dest": "/index.html" }
     ]
   }
 }
-
